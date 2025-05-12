@@ -1,42 +1,40 @@
 # Perovskites-analysis
 <h1>A thorough Molecular data analysis</h1>
 <h2>Description:</h2>
-This project involves a comprehensive analysis of molecular properties. Utilizing Python and powerful data analysis libraries—Pandas, NumPy, Matplotlib, Seaborn, and Ast—the project explores various physical and electronic properties of molecules calculated using different quantum chemical methods.
 
-The core focus is on statistical evaluation, visualization, and interpretation of molecular features such as band gap, dipole moment, polarizability, solvent energy, and charge distribution. Custom metrics like molecular complexity and energy efficiency index are defined and used to assess molecular performance.
 <br />
 <br />
 <h2>Key Components:</h2>
 <ul>
-  <li><b>Descriptive Statistics & Correlation Analysis</b> – Generate summary statistics and correlation heatmaps to understand relationships among numerical molecular properties.</li>
-  <li><b>Method Comparison</b></li>
-  <li><b>Data Visualization</b></li>
-  <li><b>Outlier Detection</b></li>
-  <li><b>Charge Distribution Analysis</b></li>
-  <li><b>Solvent Energy Trends</b></li>
-  <li><b>Custom Metrics Formulation</b></li>
-  <li><b>Structural Complexity Score</b></li>
-  <li><b>Energy Efficiency Index</b></li>
-  <li><b>Data Filtering</b> – Criteria include: Band gap > 3.0 eV, Dipole moment between 1.5–2.5 Debye, Polarizability > 25.</li>
-  <li><b>Functional Group Sensitivity</b></li>
+  <li></li>
+  <li><b></b></li>
+  <li><b></b></li>
+  <li><b></b></li>
+  <li><b></b></li>
+  <li><b></b></li>
+  <li><b></b></li>
+  <li><b></b></li>
+  <li><b></b></li>
+  <li><b></b> – Criteria include: Band gap > 3.0 eV, Dipole moment between 1.5–2.5 Debye, Polarizability > 25.</li>
+  <li><b></b></li>
 </ul>
 
 <h2>Utilities Used:</h2>
 <ul>
   <li><b>Programming Language:</b> Python</li>
-  <li><b>Libraries:</b> Pandas, NumPy, Matplotlib, Seaborn, Ast, regex</li>
+  <li><b>Libraries:</b> Pandas, Matplotlib, Seaborn, Ast, regex, MPRester</li>
 </ul>
 <h2>Program walk-through:</h2>
 <p align="center">
 <br/>
-<img src="https://media-hosting.imagekit.io/791f13988070407f/a.png?Expires=1841650439&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=nCkzrE4pw~4n6fgxo1inYYqFWRbdl0I6j9SANpbOCPMI~~BjXq3j-mQ2N5Cu0KsVIfkEi0PDOSqignEUaOzKpVgeVwyRej4yZ3q2O4XpjOKKPUR7hzaXuRxKi4eNDtLHqOrJIx95seFFFJO2VjvT0QfWPwCfs-wVRg8e1I9jZhRtazjQUrFXS5L9T0stHag4pILxI9ZHCaZFMl0os3xEaAB9WV13Ip1ZR8bQ5O~8UZDiI2k-crdsUITWyXUgPT3UoNW8874dpzOBdI1Zrzod49V4Xw7AuAvlJlv4iRmGlPkgxFocVzatZBBdmldfMFM9TU~8latx3J46GS-vgxCo6w__"/>
+<img src="https://media-hosting.imagekit.io/ac6cabdf847a4dec/Screenshot%20(283).png?Expires=1841672887&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=AqWrsmhOuOtPbNblUti~~d-CH3ZJyLBr5xZVZ3e91iX47trEqs1RXS43JHlHChWQJaUMqXgtGGvwI8LPI70mUcE8GRkc7QjpiCsqYlkF9vVkz5IjnZMfO5qWVfqx-GkUSxaODnlT~s88fldcSgl3rEzmQDYCRz~V9qMcXFegxIZU-KFp4RxpQSJpAWTnJ6moXuwhYtKc6PNGGfrEu2pGp2WkzeUGOaLtDMY8Ea3i8JBk07Ed0t7IvXdAHPwTwy0~2XaydO2Nwz0kq9JwrBQnBJXJv0~lvceaeEF7AM45ne7TtZMaVaLiV2vsKx7KOuF8-cPTd-9R8GF9UZ7cym8FoQ__"/>
 <img src="https://media-hosting.imagekit.io/eeb98c86cb694995/Screenshot%20(254).png?Expires=1841650373&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=2T3KKVNpn1kRD61SVB-fbe2U-nv2MWilE5LqcJtJcIGviwsk92SP4UB8J2dNCrmV48p6rxFPzi-pVZPReGd3yAOxvxfP2uugrCoRKDVWOjK4lYuKQdQZs4reL4Z2Au-spA~K25PWWqOtjR3DvGQZzp6Mp1rSSwndpvM5XDwFKx~sK6OADGHu39ZgSRjo5XsGs~ZnUxDM-TwHcmBmJAvxAud7DMy-IlW5NHdINhzmhjZEBAaCPkBjr0~cTiLLA--k134r8RSXwNT43gp9y5CqaOS3z4Bw0Ma02yHXdWj-E0QjMCOw-P7NN5Y1WQDFkl-sUaEd9U9Oxzk~Ci-0BSbAOQ__"/>
 <br />
 <br />
 <img src="https://media-hosting.imagekit.io/5594067a8db440ca/Screenshot%20(255).png?Expires=1841650513&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=UMzK7tuM6ewbCxhLdUK-9K-TEKS2AMnNnvPQcI3veLR49GTJkljsXLX4B1c2uPgP0vYRkx7~Jb6erJnplW-CrjtjYVx9Y~LYxEjHo49RPxAMbpLDTCmMMKkH1hb3usiGTCnI0seSPUVJPJSim0Tu9ZCItCg6AJG~BnQEzGrPJyt15rsD~QAFobwCVge9nNWv1Ku9U5-odn5WIr5Ht~e6Nf9IsPGsVJGQN5m7Av8A7drgqB-~FjGS-PVf~-remad08ZfHhK4e~ryQBhZ7KFNvCY9sCZWELAy5vYKsg-9ike61Lg3f50ei~pdY7cW5xQ5cszLIAgCUYI61HpM~YCe05g__"/>
 <br />
 <br />  
-<h2>Functional Group Sensitivity:</h2> 
+<h2>Data Cleaning:</h2> 
 <p align="center">
 <br />  
 <img src="https://media-hosting.imagekit.io/65004fc7f0f74dd5/Screenshot%20(256).png?Expires=1841650680&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=pubaiEp2hbA5FTRZ3ir8XFtxZVYXrmrakJHQE0UD29zlZPkHQ4bzlGNLAuCXgTz1eC7o4y7LVyUChFbq8MXOgLYxBOfLaJDRJRQ0ROcQT80S8e3qIIjAkxU7o446Mwia4EVYaqqQksZYPI8TBsdkW58Bkg9X8LHewDsbLQF6ZL4LFaEfmura6nA4XQiMG0tEBjtjLOHi0gXGEPWdO1cbmyG55UiOqulJhRZ5d~ZUSBSsz9wV0a2uAtpQOR0W~IrERtH4XC471EQ2WSuXOORDgpvAu-zdFNkJDf2OvAtZStFrU68PRvQjljicOl3mRiue7vnqc8hsrXU6UBi8uNCUHw__"/>
@@ -50,12 +48,13 @@ The core focus is on statistical evaluation, visualization, and interpretation o
 <br />
 <br />
 <br />
-<h2>Data Distribution:</h2>
+
 <p align="center">
 <br />
 <img src="https://media-hosting.imagekit.io/ac929f015dba4714/Screenshot%20(260).png?Expires=1841650820&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=c-PT7xpvUY9Kz~U96J3xgZv6sRqXEQVJ2XRkqgM~jCFiqGlsz7~qYnM0fXhp1WSP3onbE~R02rj4eulDOT~Th6MZzCvz-uPh138~EtGfiJUmTNXRavKDNLz4kvssNaTs06uklh4LieK1dOZBltJ9ltSfolt30UQUPxWms3Pr80iMZ24HfSgOL9oONuxiikDJevtfBLbyXUKn2x9QX08OoSB33EOwLLPeN9nZgUyfqU7VfSPDyD2rBMAazOeRLj1bC-uAgKj5acmpg8GIqAWnYdmapziA-aSRJHQGiNGIL4M1GepGgo1f07r0RCFStkbs5qoG2hQXLNCcJr66zvDW4A__"/>
 <br />
 <br />
+<h2>Extracting Values for perovskite analysis:</h2>
 <img src="https://media-hosting.imagekit.io/a2bdefcb2d284058/Screenshot%20(261).png?Expires=1841650858&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=GkOBcgaHvZcK2iz4JcclSBxn6kKgyCGSliY29EAaRWLSSZGQ8J7ZurCYLOz4EKuftYe2rRpeXiqojjU7TZCvAzUBdebVaLmw4npOhJ~IKuKhUdK8VKDXQLWaZ7F~exfiiPyBHHmzHB51c6dJyDb2oLcl1cGJpjiO~GpVnnip2ftrjvmmNG9gOGQrRt4mx-Xhe92d9O6S33RGKvC9gQGAxj0v23IKzwivkbs7EoAsMcOaxLcWjZGpCLxP5JT6VjovEj9CiEZ2hpG00pdw6LlndZAsfbJwHm-hxB-IC3iOBjWUdQYbqqFR8rX1DSR7lWY~yTC06HMgPBU0TzcSCipn~Q__"/>
 <br />
 <br />
@@ -69,11 +68,9 @@ The core focus is on statistical evaluation, visualization, and interpretation o
 <img src="https://media-hosting.imagekit.io/4ea227932be84746/Screenshot%20(264).png?Expires=1841650927&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=kw40XVq1Gc3dsPb678smNRYCgAw2fxSUMG50fpXHSt1M9c5v15VB2FKtL1m1wcFk1FIp0NVYbGFxoYt3igJ~HtHQq4oWLKPnd5lWal4ziPd-94SFk3~shlbrvtO1cbAA09sE~n4FnIjt57MFIC8jjDLgsqJScDO5VeRrozZfyu~m4EkUsD1ahYRbzp7SL6rxKcD0ecVXbZiMHgbL23sxg7IRemmyou1TDT61kNwBbz0QClAoh-sYJqIk3jKpuVUPiWllAsZICzli44BthJP-ZIu6vkpNeKdeMXqiCUYh8drAkxhX4TL~~ARIwQaJFrdPG3VeCJ9bpM6X0hroGTxTEQ__"/>
 <br />
 <br />
-<h2> Charge Distribution Consistency: </h2> 
+<h2> Distribution of band gap values: </h2> 
 <p align="center">
-<br />
-<img src="https://media-hosting.imagekit.io/147f37211b3140b3/Screenshot%20(264).png?Expires=1841650976&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ev8ScQRsqKZbV8T5NzapWkw2ITmPHGwo3fTPLs0m07FoRUL8c6DLHQNcP6O9oLKCHAsyn0pdXZourw8GBbpVsQJBGpiAlOhdpzBYmxheDmCiXf378YW8krC8VL-TxaMLhavOKplrG651kco~E9h9MmpnalXFssTlppL9DW2QG~Y6di5eTVmSiCWHKK0ZpZJBVo2kw6TQWPFOQpSYO6pKbYTuv0Ftfep~A8KE2Pa5tBVxtHnGijfF05Vs6W9lKzm~OV-~xZBPjkXuT0gabr4HMzzHOhgJNhDURzVfoEsGsD-f2w-nOwgIy9psWWJGjyhsA9mKXUtz~ZORG73W0P06Bg__"/>
-<h2> Solvent Energy:</h2> 
+<br /> 
 <img src="https://media-hosting.imagekit.io/7b3bcf4d82f34e70/Screenshot%20(266).png?Expires=1841651002&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=JQeMqlVqDjakPods-Aya0Isil~8MwJ0Ox1l84eC1STrtsa7QU75XsLczuk~VVTqowK1cDqNI0QjrVZOL19e6aymqyGZnkOcGzyuiQURQygS2Qt8c5JqsbPQTfOhxXzD6LybbsTh9ltCiIOdkKwG0aZQHeTmAxDKTUypNxDLrSS3m4PeGhP701yj4VO1SI~oXlLb93sO9tJ~L7h8vzVt07d4gn-z1O9ZZHsBmum1UWB80QQ~DTL3NnUEYw7CFQ7XfqUztw28Czhp~eM4Gqiqm3G2Zl3XVAMOGF1F51wR59Ebrs2TR9ghLn8Y7RBNjGtEYuWICyQJOuldhuSnYUsTYoA__"/>
 <br />
 <br />
@@ -83,35 +80,27 @@ The core focus is on statistical evaluation, visualization, and interpretation o
 <img src="https://media-hosting.imagekit.io/6d7692e29b3f40f0/Screenshot%20(269).png?Expires=1841651053&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Cw1FeqVDZdRpNMllF1OyoUVw-w0yQ3yfogHza8Kmv88xcPti6Ss5hog~r0Fo9LUB4F8V3SoNPPIy66OiMVQXJRKuR9TmSHKKwf-ngM0~JR4bQAtyzE-HonmN5VZHFXUCNhnDVo6~oM84H4J67qnxLIUc-8ppeQVtVrkYYDlVU5bY7jgiTZ-EUmmbO1VUbzBiz51beku2HLo-nfWj7-Z8GV5-NM60xa1Km0fkbTADZiYNQrczw1lC9-WTIjPCenjldl~akjU~Bfz10cYutA4THd829Ks9v7dmE6ab9j~It~9c0nwl8PUF949rK1KHrKNlJPxFjTZaGjLI8OIrZCY2YQ__"/>
 <br />
 <br />
-<h2>Structural Complexity Score: </h2>
 <br />  
 <p align="center">
 <br />
 <img src="https://media-hosting.imagekit.io/20252f86a3284e41/Screenshot%20(270).png?Expires=1841651093&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=D-KYPHi2zHIMldeKmh0Fh7vW4Sm5ZpQjJAdwl4goY9Qzyb61hgEzPUXBFvIJzPWewhosY-~MQA8cko3B-XqF~dpG1iIcAXY7Y4J7mI3I1KkF-nvKSYRGR5Cq87XUKqXAClAbgOIdQ-Jhv796d41a8~NOtPDTcczNjE6r0LSLfm3AGNrm6sggCRCjEJx0wRoBc~kqTd-qEtJJl1ULSDkJ5pJkEFnMzhNbycAThnRVrUb3thnetU9AOv02ISdy5dp-kw2vjPEOLICcw3tp1hneXcENvnIPtcoc6r-5OtJQO~91Vpfn-Sx-9LqcvMq0PgFNe3ox7P-CVOc6TwbHSfm2vw__"/>
 <br />
 <br />
-<h2>Energy effeciency index: </h2>
 <br />
 <img src="https://media-hosting.imagekit.io/ce7e97f67b9148a3/Screenshot%20(271).png?Expires=1841651115&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Sgp2R9CMudZHpKFXoyW-iOGcP65qgwbnwMV0ILmGj0s-Qeju1yOQjAOifFabYKO4yBahHZPivIMXT7Csv9PR4QHOeST5soPwAHuXwcppDCLc96fMdep4SjYFO2W1Q8IbN6G-~yUzrnltei03n7~gGW-OsNQAovRUSZn7klQ5duDoGQCfyyWS9iyttkysleDex12p9GjBULS8VTxl~3v-TDgXKeen7fxM-Xb3AuAZXxtYluf3DFIZ~yab-ZnFfKjcduTbGorHqatXYHo33XOrImOIqedgBwH9HX2XhrGnBOCpINZZ8maAdkrIOaKvwc-1cm9LRvoFdxmDwRApPxrVUg__"/>
 <br />
 <br />
-<h2>Correlation Heat map: </h2>
-<br />
-<img src="https://media-hosting.imagekit.io/30b5856c8d8b4e01/Screenshot%20(272).png?Expires=1841651136&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=BRuGJf9wM4MMvnzifPDFwAcUL5wwQRiJwDVu4sqjFsflxFhP68-66uoJvnvWlpi6w5vBxBOecJMBMFuS4s-2U7jhBCt~u0qcVPUifray3JA16NFImCZ7TyqLiAZpYomQ6cgDArLNVygjJdm8a2Ski2WSYw0t9LYAnF9T7qDfx4pXXgKmQfbI3XbNfPpbUkLBD1qsyIVy9S2VKRfK223mKPp6dXjitACgoPQsUOD6kqYRaLxmChSE6~ae55WsZIyVjxXM451PA8mr9MR~PS~8KkCKm2ktjSmEEAvng6RclmcjICnBded5Wgj3tB75RCkPxSz4ZOKZw9YehhTWXSy5ug__"/>
-<br />
+<h2>Comparison between band gap of different type of perovskites: </h2>
 <br />
 <b>
 <img src="https://media-hosting.imagekit.io/8ebf040dfa1f4f9a/Screenshot%20(273).png?Expires=1841651195&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=IyRXeinj~HE6bZBFh5NoFDuaV1ua67ZjqKGBtsK2Iz98yiA8N77wx9sOYNAkbCikfYO0GmHNRKuoTWbgU5Ca1rKEDAgmmn7~IXSzZjxTH7MbzzOCgf-Nj5J5H7y74EpyQsw~YyvPXYYzLIjsTKLKxpscAjGds-Z7PzTjOom104-T~2SbT9APMouCsSWcjB0hqZyM15vAR5RTZ7CouY3CHC5HeDa2I7aE-PGPbhSxi3W-v3GY1RL-nsRpEBZa07X5V4O0lzFu4hfHGuhSzyIuIpfjzFESPnYDMZAN53MZabYNVBceEfrTM2FYXUUzCW791InGkTh6n438MBdwUszoFg__"/>
-<br />
-<br />
-<h2>Filtering data on the basis of: </h2>
-<br />
 <img src="https://media-hosting.imagekit.io/800644b6e40449c7/Screenshot%20(274).png?Expires=1841651214&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=sUWkQ1-wdLpYg0ySBuOFpUGhnGMxhvE15DZgV7TVHp-VXYlok2pwUoYtNPDVtN-6A4o8uypw8UZbvWyWfKQVtrjk7LrVMytS1N650ibdmTNI4sZLUUG7sQbAxgTZegNdh-ij3jAeSfdBk0~ENYnCLS74owfurDRH5Ty5y2vFpuTKbGelxkzVATZK9aaYaoHOg5lhCsl91oe1o8cBvF~mnZvK76VdBwflz0pVcMsYqWkJGQ5NJkVajqfyrf9YiECdavcDjTYrNLK8DC3xXaC2TwDxcWPmteXa11swbjt0abGUfw74bPnTc3ODcMA~CkF9fH1h88~FKbbkuW979QO6tg__"/>
 <br />
 <br />
 <img src="https://media-hosting.imagekit.io/5be5c7aa88ba41ae/o.png?Expires=1841651965&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=SzopNCkTFLliJerXZqVgEK2ssYMwMdy4WK~fNzUQwT1lQBfPvlIrVaESFt3Z3hEuhg0fvAvv9~uK-7sbS1urrUaHiwqUmT8oFDvO0MI4fWjpQ-~v4mB-7UfNEu8CnVFQr~mlPsmatzWsRUCh7NO6BrhSsyurpdb8tEOI8VPZnQ5y04KVMJboIAzzTWM-YT3-TAjvBjhnET64dL4KhzNYKx4W7b2bWGAX7HIY7cghohAuBgOYR~ajlEFEjWipV99lmp0yiLpft8WiVRpM3zyZRnCE9GvXGCWsHLBHTj-y0nEj73w5B2hjkTmz3Iqba1fOpel~cN2sLYvUdu-tIh3EIw__"/>
 <br />
 <br />
+<h2>Correlation Heat map: </h2>
 <img src="https://media-hosting.imagekit.io/e71ccc9a7d044bc4/Screenshot%20(275).png?Expires=1841652479&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=z2vOYxLVXNrO8uk4RdtaFNpmKTNqx5kKSXGBJTIJXPhD6GRBSTufw4RTXvWAyTSv1i2u25fVMDy2sC7H~gWsIShiwO49vYZqW7IaTT6BT1176RPVQhXPry~FJTJv5Cioj5FiCpOD1V-~fV3EgULbaSv9jpEu0SCAkuO4Weyr7BIX2Hg3v0CZiA33y2BuOLN7n2QVv9wswofuevPtxRn4JfZ-rNp2sCvmWdlWRVMssFzsQX9jYmf2311vQrfunoxuI8GDHvf1Zlwr06BQWwTwEkS~1KDmjLGPwJMwDT0Bb8We8XnWBrDDMybgwvEjuCjYBLfQ1gGtaqOF7FrMDn02YQ__"/>
 <br />
 <br />
@@ -135,14 +124,7 @@ The core focus is on statistical evaluation, visualization, and interpretation o
 <img src="https://media-hosting.imagekit.io/543afd08aec345cf/Screenshot%20(282).png?Expires=1841652700&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=xCiSgomrfk5zkPX7G0aFCuba6NvYwu6ecxXgoklwgUrfjrOj3lbh6jf71Jjjvd--76CqI1Ek9Xa5vc~Li743D7rdp6OuL0wywlfB62ioI2P9n1YKukwnd7hSRosm-UZ9yKG3Q4iyKqgEz89SAUh3AtwUiMxkK1b48gFMT6dSun6UlrbHi17KOA~-RR2AGeh1munV0Z55ujc2F6l1usC8xFpMpGKMD~6k9XqIdT3fcgF9aJUFwcDtSk6dpm2IjnyrFx3KzYcY3BRneJyBtz19DNztnoimrfRMFr~s5mdPMYz-HXhPtRVTW5aknbOnRWQF-WYhPplGsP47rSKFKtgK4g__"/>
 <br />
 <br />
-<br />
-<img src=""/>
-<br />
-<br />
-<br />
-<img src=""/>
-<br />
-
+  
 <h2>Project Findings</h2>
 <h3>1. Dipole Moment and Polarizability Trends</h3>
 <ul>
