@@ -6,17 +6,16 @@
 <br />
 <h2>Key Components:</h2>
 <ul>
-  <li></li>
-  <li><b></b></li>
-  <li><b></b></li>
-  <li><b></b></li>
-  <li><b></b></li>
-  <li><b></b></li>
-  <li><b></b></li>
-  <li><b></b></li>
-  <li><b></b></li>
-  <li><b></b> – Criteria include: Band gap > 3.0 eV, Dipole moment between 1.5–2.5 Debye, Polarizability > 25.</li>
-  <li><b></b></li>
+  <li><b>Importing data from Material sStudio using API</b> </li>
+  <li><b>Data Cleaning</b></li>
+  <li><b>Extracting specific compounds for perovskite analysis</b></li>
+  <li><b>Calculation of mean band gap across crystal system</b></li>
+  <li><b>Distribution of band gap values across different materials of O3</b></li>
+  <li><b>Counting the number of atoms that are frequent in high band gap compounds</b></li>
+  <li><b>Comparing band gaps of different perovskites</b></li>
+  <li><b>Corelation matrix for different properties</b></li>
+  <li><b>Distribution of band gap with respect to density and volume</b></li>
+  <li><b></b> – Criteria include: Band gap > 3.0 eV, Dipole moment between 1.5–2.5 
 </ul>
 
 <h2>Utilities Used:</h2>
@@ -126,54 +125,31 @@
 <br />
   
 <h2>Project Findings</h2>
-<h3>1. Dipole Moment and Polarizability Trends</h3>
 <ul>
- <li><strong>Dipole Moment Order:</strong> HF &gt; MP2 &gt; DFT-B3LYP &gt; CCSD(T)</li>
- <li><strong>Polarizability Order:</strong> MP2 &gt; DFT-B3LYP &gt; CCSD(T) &gt; HF</li>
- <li> MP2 consistently predicts higher values for both dipole moment and polarizability compared to other methods.</li>
-</ul>
+  <li><b>Source data was imported by a credible Database called Material Studio using API method</b> </li>
+  <li><b>Data Cleaning involved extracting desired values from the column named symmetry(to get crystal system) and elements(to find out which elements are present in the compound)</b></li>
+  <li><b>Mean band gap was calculted for every crystal system and it was found that Trigonal system show highest band gaps</b></li>
+  <li><b>Out of the data semi-conductors were isolated inorder to perform furthur analysis. Semi-conductors are the compounds having band gap higher than 1eV.</b></li>
+  <li><b>The distribution of band gap of these semi- conductors was elaborated by a histogram. The histogram shows the distribution of band gap values, with most values concentrated between 1.2 and 2.2 eV. The blue KDE line indicates a right-skewed distribution, suggesting fewer materials have high band gap values above 3.0 eV. </b></li>
+  <li><b>The number of atoms which were most frequent in materils having higher band gap(>2.5) were counted using Explode attribute of pandas. followed by extracting perovskites of(A= Ba, Sr, Ca & B = Ti, Fe, Ni, Mn, Co, V, Cu $ C= O3) </b></li>
+  <li><b>A strack plot was made to visualize the band gap diffreneces of perovskites(A= Ba, Sr, Ca) </b>. Ba compounds show a wide range of band gaps (0 to 2.5 eV) with many low-gap materials.
+Sr compounds are dominated by near-zero band gaps, with only a few outliers around 1.8 eV.
+Ca compounds display more variability, with several high-gap materials (up to ~3.3 eV).
+Overall, Ca compounds tend to exhibit higher band gaps compared to Ba and Sr compounds.</li>
+  <li><b>This correlation matrix shows the linear relationships between four variables:
 
-<h3>2. Method Comparison – Grouped Bar Chart</h3>
-<ul>
- <li><strong>Polarizability (Orange Bars):</strong> Significantly higher than dipole moment across all methods.</li>
- <li><strong>Highest Polarizability:</strong> MP2</li>
- <li><strong>Highest Dipole Moment:</strong> CCSD(T)</li>
- <li><strong>Lowest Dipole Moment:</strong> DFT-B3LYP</li>
- <li> Variability in predicted properties across methods underscores the importance of method selection.</li>
-</ul>
+Band gap vs energy per atom has a strong negative correlation (-0.73), meaning as energy per atom increases, band gap tends to decrease.
 
-<h3>3. Band Gap Distribution</h3>
-<ul>
- <li><strong>Histogram & KDE Plot:</strong> Band gap values cluster around ~3.5 eV with a slight right skew (Skewness ≈ 0.1).</li>
- <li><strong>Boxplot:</strong>
-<ul>
- <li><strong>Median:</strong> ~3.5 eV</li>
- <li><strong>IQR:</strong> ~1.5 to 5.5 eV</li>
- <li><strong>Outliers:</strong> None detected</li>
-</ul>
-</li>
- <li>Band gaps are consistently distributed across compounds.</li>
+Band gap vs density (-0.047) and band gap vs volume (0.033) show very weak correlations, indicating little to no linear relationship.
+
+Density and volume show a slight positive correlation (0.16), while the rest are near-zero, suggesting independence.</b></li>
+  <li><b>Band gap values of fifferent perovskites belonging to different crystal system was plotted. it was observed that monoclinic, orthorombic and cubic crystal system contains 1, 3,3 outliers. </b></li>
+  <li><b>Scatter plots of band gap vs density and band gap vs volume was plotted</b> <li/>
 </ul>
 
 
-<h3>4. Solvent Energy Analysis</h3>
-<ul>
- <li><strong>Highest Solvent Energy:</strong> Predicted by HF method</li>
- <li><strong>Comparable Values:</strong> Observed among MP2, DFT-B3LYP, CCSD(T)</li>
-</ul>
 
-<h3>5. Derived Indices</h3>
-<ul>
-  <li><strong>Structural Complexity Score:</strong> (Atom Count × Polarizability) / (1 + Rotatable Bonds)</li>
-  <li><strong>Energy Efficiency Index:</strong> –Solvent Energy / Molecular Weight</li>
-</ul>
-
-<h3>6. Correlation Analysis</h3>
-<ul>
-  <li><strong>Correlation between Polarizability and Dipole Moment:</strong> –0.08 (very weak negative correlation)</li>
-  <li>Essentially no linear relationship; as one increases, the other does not consistently increase or decrease.</li>
-  <li><strong>Color-coded Matrix:</strong> Strong positive self-correlations (red), weak negative inter-property correlations (blue)</li>
-</ul>
+ 
 
 <!--
  ```diff
