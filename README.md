@@ -125,7 +125,7 @@
     </ul>
   </li>
   <li>Band gap values of different perovskites belonging to different crystal systems were plotted. It was observed that monoclinic, orthorhombic, and cubic crystal systems contain 1, 3, and 3 outliers.</li>
-  <li>Scatter plots of band gap vs density and band gap vs volume were plotted.</li>
+  <li>Scatter plots plots show the relationship between band gap and two properties: density (left) and volume (right) of materials. Most materials have a band gap close to zero, regardless of density or volume, indicating many are metallic or semimetallic. A few materials with moderate density or volume exhibit higher band gaps, suggesting potential insulating or semiconducting behavior.</li>
 </ol>
 
 
